@@ -68,7 +68,7 @@ Métadonnées générales :
 
 ### Index.qmd
 
-Afin de facilier le deployement du fichier (cf. partie 3), renoomez le fichier.qmd en "index.dmq"
+Afin de faciliter le déploiement du fichier (cf. partie 3), renommez le fichier.qmd en "index.qmd"
 
 ### Compiler le document
 
@@ -78,11 +78,14 @@ Afin de facilier le deployement du fichier (cf. partie 3), renoomez le fichier.q
 
 ## Stockage sur Github
 
-<https://sigr2021.github.io/git/#>
+Support d'atelier explicite et efficace : <https://sigr2021.github.io/git/#>
 
 ### Installer Git
 
 <https://sigr2021.github.io/git/#8>
+
+<https://git-scm.com/downloads>
+
 
 ### Inscription GitHub
 
@@ -100,11 +103,9 @@ Afin de facilier le deployement du fichier (cf. partie 3), renoomez le fichier.q
 
 ### *Pusher* son projet
 
+Il ne reste plus qu'a ajouter son projet Rstudio sur le nouveau dépôt créé.
+
 ![](img/push_new_depot.png)
-
-#### Manuellement
-
-Blablabla
 
 #### En ligne de commande
 
@@ -113,7 +114,7 @@ Dans le terminal proposé par Rstudio
 ```{r, eval=FALSE}
 
 git remote add origin git@github.com:EE-CIST/mon_depot_github.git
- ?? git branch -M main
+# git branch -M main
 git add .
 git commit -m "initial"
 git push origin main

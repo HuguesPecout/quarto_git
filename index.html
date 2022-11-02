@@ -225,7 +225,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="index.qmd" class="level3" data-number="1.3">
 <h3 data-number="1.3" class="anchored" data-anchor-id="index.qmd"><span class="header-section-number">1.3</span> Index.qmd</h3>
-<p>Afin de facilier le deployement du fichier (cf.&nbsp;partie 3), renoomez le fichier.qmd en “index.dmq”</p>
+<p>Afin de faciliter le déploiement du fichier (cf.&nbsp;partie 3), renommez le fichier.qmd en “index.qmd”</p>
 </section>
 <section id="compiler-le-document" class="level3" data-number="1.4">
 <h3 data-number="1.4" class="anchored" data-anchor-id="compiler-le-document"><span class="header-section-number">1.4</span> Compiler le document</h3>
@@ -235,10 +235,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="stockage-sur-github" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="stockage-sur-github"><span class="header-section-number">2</span> Stockage sur Github</h2>
-<p><a href="https://sigr2021.github.io/git/#" class="uri">https://sigr2021.github.io/git/#</a></p>
+<p>Support d’atelier explicite et efficace : <a href="https://sigr2021.github.io/git/#" class="uri">https://sigr2021.github.io/git/#</a></p>
 <section id="installer-git" class="level3" data-number="2.1">
 <h3 data-number="2.1" class="anchored" data-anchor-id="installer-git"><span class="header-section-number">2.1</span> Installer Git</h3>
 <p><a href="https://sigr2021.github.io/git/#8" class="uri">https://sigr2021.github.io/git/#8</a></p>
+<p><a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></p>
 </section>
 <section id="inscription-github" class="level3" data-number="2.2">
 <h3 data-number="2.2" class="anchored" data-anchor-id="inscription-github"><span class="header-section-number">2.2</span> Inscription GitHub</h3>
@@ -255,17 +256,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="pusher-son-projet" class="level3" data-number="2.5">
 <h3 data-number="2.5" class="anchored" data-anchor-id="pusher-son-projet"><span class="header-section-number">2.5</span> <em>Pusher</em> son projet</h3>
+<p>Il ne reste plus qu’a ajouter son projet Rstudio sur le nouveau dépôt créé.</p>
 <p><img src="img/push_new_depot.png" class="img-fluid"></p>
-<section id="manuellement" class="level4">
-<h4 class="anchored" data-anchor-id="manuellement">Manuellement</h4>
-<p>Blablabla</p>
-</section>
 <section id="en-ligne-de-commande" class="level4">
 <h4 class="anchored" data-anchor-id="en-ligne-de-commande">En ligne de commande</h4>
 <p>Dans le terminal proposé par Rstudio</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git remote add origin git<span class="sc">@</span>github.com<span class="sc">:</span>EE<span class="sc">-</span>CIST<span class="sc">/</span>mon_depot_github.git</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> ?? git branch <span class="sc">-</span>M main</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># git branch -M main</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>git add .</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>git commit <span class="sc">-</span>m <span class="st">"initial"</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>git push origin main</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -558,7 +556,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="fu">### Index.qmd</span></span>
 <span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>Afin de facilier le deployement du fichier (cf. partie 3), renoomez le fichier.qmd en "index.dmq"</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>Afin de faciliter le déploiement du fichier (cf. partie 3), renommez le fichier.qmd en "index.qmd"</span>
 <span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="fu">### Compiler le document</span></span>
 <span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a></span>
@@ -568,71 +566,72 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## Stockage sur Github</span></span>
 <span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#&gt;</span></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>Support d'atelier explicite et efficace : <span class="ot">&lt;https://sigr2021.github.io/git/#&gt;</span></span>
 <span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a><span class="fu">### Installer Git</span></span>
 <span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#8&gt;</span></span>
 <span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="fu">### Inscription GitHub</span></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://git-scm.com/downloads&gt;</span></span>
 <span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#6&gt;</span></span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a><span class="fu">### Clefs SSH</span></span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#12&gt;</span></span>
-<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="fu">### Créer un dépôt</span></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#22&gt;</span></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/new_rep.png)</span></span>
-<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="fu">### *Pusher* son projet</span></span>
-<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/push_new_depot.png)</span></span>
-<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Manuellement</span></span>
-<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>Blablabla</span>
-<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a><span class="fu">#### En ligne de commande</span></span>
-<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>Dans le terminal proposé par Rstudio</span>
-<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, eval=FALSE}</span></span>
-<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>git remote add origin git<span class="sc">@</span>github.com<span class="sc">:</span>EE<span class="sc">-</span>CIST<span class="sc">/</span>mon_depot_github.git</span>
-<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a> ?? git branch <span class="sc">-</span>M main</span>
-<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>git add .</span>
-<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>git commit <span class="sc">-</span>m <span class="st">"initial"</span></span>
-<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>git push origin main</span>
-<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a><span class="fu">## Déployer son document</span></span>
-<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_0.png)</span></span>
-<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_1.png)</span></span>
-<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_2.png)</span></span>
-<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_3.png)</span></span>
-<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_4.png)</span></span>
-<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a><span class="fu">### Netlify</span></span>
-<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a><span class="fu">## Intégration continue</span></span>
-<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a><span class="fu">### Pull</span></span>
-<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a><span class="fu">### Add</span></span>
-<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a><span class="fu">### Commit</span></span>
-<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a><span class="fu">### Push</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="fu">### Inscription GitHub</span></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#6&gt;</span></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="fu">### Clefs SSH</span></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#12&gt;</span></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="fu">### Créer un dépôt</span></span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://sigr2021.github.io/git/#22&gt;</span></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/new_rep.png)</span></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="fu">### *Pusher* son projet</span></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>Il ne reste plus qu'a ajouter son projet Rstudio sur le nouveau dépôt créé.</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/push_new_depot.png)</span></span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a><span class="fu">#### En ligne de commande</span></span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>Dans le terminal proposé par Rstudio</span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, eval=FALSE}</span></span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>git remote add origin git<span class="sc">@</span>github.com<span class="sc">:</span>EE<span class="sc">-</span>CIST<span class="sc">/</span>mon_depot_github.git</span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a><span class="co"># git branch -M main</span></span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>git add .</span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>git commit <span class="sc">-</span>m <span class="st">"initial"</span></span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>git push origin main</span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a><span class="fu">## Déployer son document</span></span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_0.png)</span></span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_1.png)</span></span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_2.png)</span></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_3.png)</span></span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/deploy_4.png)</span></span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a><span class="fu">### Netlify</span></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## Intégration continue</span></span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a><span class="fu">### Pull</span></span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a><span class="fu">### Add</span></span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a><span class="fu">### Commit</span></span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a><span class="fu">### Push</span></span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
