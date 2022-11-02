@@ -1,0 +1,140 @@
+---
+title: "Quarto & Git"
+subtitle: "Mon document (notebook, site web) en intégration continue"
+author:
+  - name: Hugues Pecout
+    affiliations:
+      - CNRS, Géographie-Cités
+  - name: Elina Marveaux
+    affiliations:
+      - CNRS, FR CIST
+date: 11/02/2022
+lang: fr
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    number-depth: 3
+    code-tools:
+     source: true
+     toggle: false
+     caption: none
+---
+
+## Créer un Quarto (avec Rstudio)
+
+### Plusieurs formats
+
+-   Document (article, diaporama...)
+-   Website
+-   Book
+
+Mais cela fonctionne de la même façon...
+
+![](img/new_dir.png)
+
+![](img/quarto_project.png)
+
+![](img/create_project.png)
+
+### Fichiers générés
+
+#### Quarto document
+
+![](img/quarto_files_1.png)
+
+![](img/Quarto_1.png)
+
+Métadonnées de l'en-tête du dosument Quarto :
+
+<https://quarto.org/docs/output-formats/html-basics.html>
+
+exemple :
+
+![](img/meta_doc.png)
+
+![](img/quarto_files_2.png)
+
+Métadonnées générales :
+
+<https://quarto.org/docs/projects/quarto-projects.html#project-metadata>
+
+#### Quarto book
+
+#### Quarto Website
+
+### Compiler le document
+
+![](img/render.png)
+
+![](img/exemple_1.png)
+
+## Stockage sur Github
+
+<https://sigr2021.github.io/git/#>
+
+### Installer Git
+
+<https://sigr2021.github.io/git/#8>
+
+### Inscription GitHub
+
+<https://sigr2021.github.io/git/#6>
+
+### Clefs SSH
+
+<https://sigr2021.github.io/git/#12>
+
+### Créer un dépôt
+
+<https://sigr2021.github.io/git/#22>
+
+![](img/new_rep.png)
+
+### *Pusher* son projet
+
+![](img/push_new_depot.png)
+
+#### Manuellement
+
+Blablabla
+
+#### En ligne de commande
+
+Dans le terminal proposé par Rstudio
+
+```{r, eval=FALSE}
+
+git remote add origin git@github.com:EE-CIST/mon_depot_github.git
+ ?? git branch -M main
+git add .
+git commit -m "initial"
+git push origin main
+
+```
+
+## Déployer son document
+
+![](img/deploy_0.png)
+
+![](img/deploy_1.png)
+
+![](img/deploy_2.png)
+
+![](img/deploy_3.png)
+
+![](img/deploy_4.png)
+
+### Netlify
+
+## Intégration continue
+
+### Pull
+
+### Add
+
+### Commit
+
+### Push
