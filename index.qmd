@@ -109,7 +109,7 @@ Il ne reste plus qu'a ajouter son projet Rstudio sur le nouveau dépôt créé.
 
 #### En ligne de commande
 
-Dans le terminal proposé par Rstudio
+Dans le terminal proposé par Rstudio :
 
 ```{r, eval=FALSE}
 
@@ -139,8 +139,45 @@ git push origin main
 
 ### Pull
 
+Récupérer les dernières modifications et/ou ajouts : 
+
+```{r, eval=FALSE}
+
+git pull
+
+```
+
 ### Add
+
+Ajout des fichiers à prendre en compte :
+
+```{r, eval=FALSE}
+
+git add .
+
+# Ou 
+
+git add nomfichier.xxx
+
+```
+
 
 ### Commit
 
+"Archivage" des modifications locales, avant l'envoi sur le dépôt :
+
+```{r, eval=FALSE}
+
+git commit -m "name of the commit"
+
+```
+
 ### Push
+
+Envoi, ajout des modifications sur le dépôt :
+
+```{r, eval=FALSE}
+
+git push
+
+```
