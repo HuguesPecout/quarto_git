@@ -65,6 +65,11 @@ Métadonnées générales :
 
 #### Quarto Website
 
+
+### Index.qmd
+
+Afin de facilier le deployement du fichier (cf. partie 3), renoomez le fichier.qmd en "index.dmq"
+
 ### Compiler le document
 
 ![](img/render.png)
