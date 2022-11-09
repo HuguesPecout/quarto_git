@@ -65,7 +65,6 @@ Métadonnées générales :
 
 #### Quarto Website
 
-
 ### Index.qmd
 
 Afin de faciliter le déploiement du fichier (cf. partie 3), renommez le fichier.qmd en "index.qmd"
@@ -85,7 +84,6 @@ Support d'atelier explicite et efficace : <https://sigr2021.github.io/git/#>
 <https://sigr2021.github.io/git/#8>
 
 <https://git-scm.com/downloads>
-
 
 ### Inscription GitHub
 
@@ -114,7 +112,7 @@ Dans le terminal proposé par Rstudio :
 ```{r, eval=FALSE}
 
 git remote add origin git@github.com:EE-CIST/mon_depot_github.git
-# git branch -M main
+git branch -M main
 git add .
 git commit -m "initial"
 git push origin main
@@ -139,7 +137,7 @@ git push origin main
 
 ### Pull
 
-Récupérer les dernières modifications et/ou ajouts : 
+Récupérer les dernières modifications et/ou ajouts :
 
 ```{r, eval=FALSE}
 
@@ -160,7 +158,6 @@ git add .
 git add nomfichier.xxx
 
 ```
-
 
 ### Commit
 
